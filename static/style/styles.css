@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Mochiy+Pop+One&display=swap');
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+  }
+
+
 main {
-    margin-top: 4%;
-    padding-left: 23%;
-    padding-right: 23%;
+    padding-left: 25%;
+    padding-right: 25%;
     padding-top: 2%;
     padding-bottom: 2%;
     color: white;
-    font-size: larger;
+    font-size: 7rem;
     background-color: black;
     opacity: 90%;
     text-align: center;
@@ -25,36 +32,34 @@ box-sizing: border-box;
 justify-content: center;
 margin: 0;
 padding: 0;
+background-attachment: fixed;
 }
 
-p {
-font-size: larger;
-margin-left: 2%;
-}
 
 #image-food {
 width: 100px;
 height: 100px;
-box-shadow: 2px 2px 15px #ccc;
+box-shadow: 0.2rem 0.2rem 1.5rem #ccc;
 }
 
 .main{
 background-color: black;
-margin: 7% 20% 7% 20%;
-padding: 2% 8% 3% 2%;
-border-radius: 25px;
+margin-left: 20%;
+margin-right: 20%;
+margin-top: 5%;
+margin-bottom: 5%;
+border-radius: 2.5rem;
 opacity: 90%;
 text-align: center;
-justify-content: center;
 }
 
 a, button{
-text-transform: none;
+font-size: 3rem;
 text-decoration: none;
 color: white;
 font-style: bold;
-padding: 20px;
-border-radius: 8px;
+padding: 2rem;
+border-radius: 0.8rem;
 background-color: black;
 font-weight: bold;
 margin-top: 3%;
@@ -75,22 +80,24 @@ text-decoration: none;
 color: white;
 font-style: bold;
 background-color: purple;
-padding: 20px;
-border-radius: 8px;
+padding: 2rem;
+border-radius: 0.8rem;
 font-family: 'Mochiy Pop One', sans-serif;
 cursor: pointer;
 }
 
+b {
+    font-size: 1rem;
+}
 .breakfast,.lunch, .snack, .dinner {
+font-family: 'DM Sans', sans-serif;
 background-color: white;
-border-radius: 25px;
+border-radius: 2.5rem;
 padding: 5% 5% 5% 5%;
 box-shadow: 2px 2px 15px #ccc;
-display: flex;
 justify-content: space-between;
 margin-bottom: 4%;
-font-family: 'DM Sans', sans-serif;
-font-size: medium;
+font-size: 5rem;
 width: 100%;
 }
 
@@ -99,17 +106,12 @@ width: 100%;
     cursor: pointer;
     }
 
-#play {
-    width: 100px;
-    height: 100px;
-}
 
 @media (max-width: 1020px) {
 
     .breakfast,.lunch, .snack, .dinner{
         width: 100%;
         display: block;
-        padding-right: 0%;
         }
         
   }
@@ -119,5 +121,12 @@ width: 100%;
         width: 30%;
         display: block;
         }
+
+    @media (max-width: 350px) {
+        .breakfast,.lunch, .snack, .dinner{
+            width: 10%;
+            display: block;
+            }
         
   }
+}
