@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Mochiy+Pop+One&display=swap');
+
+main {
+    margin-top: 4%;
+    padding-left: 23%;
+    padding-right: 23%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+    font-size: larger;
+    background-color: black;
+    opacity: 90%;
+    text-align: center;
+}
+
+body {
+text-align: center;
+margin: 0;
+font-family: 'Mochiy Pop One', sans-serif;
+background-image: url("/static/background1.jpg"); 
+background-repeat:no-repeat;
+background-size: cover;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+p {
+font-size: larger;
+margin-left: 2%;
+}
+
+#image-food {
+width: 100px;
+height: 100px;
+box-shadow: 2px 2px 15px #ccc;
+}
+
+.main{
+background-color: black;
+margin: 5% 20% 10% 20%;
+padding: 2% 8% 5% 8%;
+border-radius: 25px;
+opacity: 90%;
+}
+
+a, button{
+text-transform: none;
+text-decoration: none;
+color: white;
+font-style: bold;
+padding: 20px;
+border-radius: 8px;
+background-color: black;
+font-weight: bold;
+margin-top: 3%;
+margin-bottom: 0%;
+font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.a {
+   background-color: transparent;
+}
+
+.a:hover {
+    background-color: transparent;
+ }
+
+ button:hover{
+text-decoration: none;
+color: white;
+font-style: bold;
+background-color: purple;
+padding: 20px;
+border-radius: 8px;
+font-family: 'Mochiy Pop One', sans-serif;
+cursor: pointer;
+}
+
+.breakfast,.lunch, .snack, .dinner {
+background-color: white;
+border-radius: 25px;
+padding: 3% 5% 3% 5%;
+box-shadow: 2px 2px 15px #ccc;
+display: flex;
+justify-content: space-between;
+margin-bottom: 4%;
+font-family: 'DM Sans', sans-serif;
+font-size: medium;
+}
+
+.breakfast:hover,.lunch:hover,.snack:hover,.dinner:hover {
+    background-color: #EEEEEE;
+    cursor: pointer;
+    }
+
+#play {
+    width: 100px;
+    height: 100px;
+}
