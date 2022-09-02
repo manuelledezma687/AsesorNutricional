@@ -6,7 +6,4 @@ def menuGenerator():
     Bebidas = ["Café","Mate","Yogurt"]
     itemsBreakfast = "Su Desayuno: " + random.choice(Frutas) +", " + random.choice(Proteínas) +" y "+ random.choice(Bebidas)
     
-    for i in itemsBreakfast:
-        finalMenu = itemsBreakfast
-    
-    return(finalMenu)
+    return(itemsBreakfast)

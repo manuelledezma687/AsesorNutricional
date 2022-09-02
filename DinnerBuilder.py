@@ -7,7 +7,4 @@ def menuGenerator():
     Acompañantes = ["Yogurt Griego","Vaso de agua","Jugo de limón", "Jugo de pepino con limón","Vaso de avena"]
     itemsDinner = "Su Cena: " +"Condimentar y cocinar con sal u otras especias al gusto: " + random.choice(Verduras) + ", "+ random.choice(Aderezos) +", " + random.choice(Proteínas) +" y "+ random.choice(Acompañantes)
     
-    for i in itemsDinner:
-        finalMenu = itemsDinner
-    
-    return(finalMenu)
+    return(itemsDinner)
